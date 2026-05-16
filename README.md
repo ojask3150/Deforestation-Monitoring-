@@ -65,33 +65,29 @@ This project implements a deep learning solution for automated deforestation det
 ---
 
 ## Project Structure (Due to github limits actual bands have not been uploaded, instead GDRIVE link has been added)
+
 deforestation-detection/
-│
-├── data/
-│ ├── 2025/ # 2025 Sentinel-2 tiles
-│ │ ├── T44RKU_B04_10m.jp2
-│ │ ├── T44RKUB08_10m.jp2
-│ │ ├── T44RKUB11_20m.jp2
-│ │ └── T44RKUB12_20m.jp2
-│ └── 2026/ # 2026 Sentinel-2 tiles
-│ ├── T44RKUB04_10m.jp2
-│ ├── T44RKUB08_10m.jp2
-│ ├── T44RKUB11_20m.jp2
-│ └── T44RKU_B12_20m.jp2
-│
-├── outputs/
-│ ├── unet_model.pth # Trained model weights
-│ ├── deforestation_probability_2026.tif
-│ ├── deforestation_binary_2026.tif
-│ ├── deforestation_map_2026.png
-│ ├── deforestation_results_2026.txt
-│ └── accuracy_metrics.txt
-│
-├── notebooks/
-│ └── deforestation.ipynb # Main training notebook
-│
-├── requirements.txt
-└── README.md
+data/
+2025/
+T44RKU_B04_10m.jpg2
+T44RKU_B08_10m.jpg2
+T44RKU_B11_20m.jpg2
+T44RKU_B12_20m.jpg2
+T44RKU_B13_20m.jpg2
+T44RKU_B14_10m.jpg2
+T44RKU_B15_20m.jpg2
+outputs/
+unet_model.pth
+weights/
+deforestation_probability_2026.tif
+deforestation_binary_2026.tif
+deforestation_map_2026.png
+deforestation_results_2026.txt
+accuracy_metrics.txt
+notebooks/
+deforestation.ipynb
+requirements.txt
+README.md
 
 ## Requirements
 torch>=2.0.0
